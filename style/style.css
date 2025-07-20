@@ -1,0 +1,85 @@
+/* shared style */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.display-flex{
+    display: flex;
+}
+.primary-color{
+    color: #E02C6D;
+}
+.btn-primary{
+    padding: 10px 56px 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    border: none;
+}
+/* header related style */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.navbar{
+    list-style: none;
+   display: inline;
+   margin-left: 20px; 
+   font-size: 16px;
+   font-weight: 600px;
+}
+.nav{
+    text-decoration: none;
+    color: #3A3A3A;
+    
+}
+.info{
+    display: flex;
+    margin: 0px 120px;
+    justify-content: space-between;
+}
+.info-title{
+    margin-top: 145px;
+}
+.title{
+    font-weight: bold;
+    font-size: 52px;
+    color: #3A3A3A;
+    
+}
+.info-des{
+    font-weight: 600px;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-top: 16px;
+}
+.extra{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+main section i{
+    position: relative;
+    right: 50px;
+    color: white;
+    
+}
+.info-img{
+    margin-top: 80px;
+    background-image: url('../images/Circle\ design.svg');
+    margin-left: 133px;
+}
+
+/* main section i{
+    position: absolute;
+    right: 5px;
+} */
