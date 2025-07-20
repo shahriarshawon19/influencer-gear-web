@@ -1,4 +1,11 @@
 /* shared style */
+
+.inter-font, .product-price {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -67,7 +74,7 @@
     align-items: center;
     margin-top: 16px;
 }
-main section i{
+#tik{
     position: relative;
     right: 50px;
     color: white;
@@ -87,6 +94,93 @@ main section i{
     display: flex;
     justify-content: space-between;
     margin: 100px 165px 0px;
+}
+.products-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #3A3A3A;
+    /* font-weight: 600px; */
+    font-size: 28px;
+    /* width: 151px;
+    height: 40px; */
+
+}
+.all-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 150px;
+    gap: 30px;
+    
+}
+.products{
+    margin-bottom: 30px;
+    width: 329px;
+
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 40px 0px #3A3A3A;
+    /* margin-left: 10px; */
+    border-radius: 5px;
+    
+}
+.product-img{
+    height: 256px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 17px 14px 0px;
+}
+.img-title{
+    padding-top: 16px;
+    padding-left: 14px;
+    margin: 0 auto;
+}
+.product-price{
+    padding-top: 16px;
+    padding-left: 14px;
+    margin: 0 auto;
+    font-size: 24px;
+    
+}
+.review-container{
+    /* padding-top: 16px; */
+    padding-left: 14px;
+    /* margin: 0 auto; */
+    display: flex;
+    gap: 5px;
+    /* border: 1px solid black; */
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.review{
+    height: 16px;
+    width: 16px;
+    margin-top: 15px;
+}
+.rating{
+    font-weight: bold;
+    font-size: 14px;
+    width: 29px;
+    height: 22px;
+    
+}
+.products-des{
+    /* padding-top: 16px; */
+    padding-left: 14px;
+    /* margin: 0 auto; */
+    margin-top: 2px;
+    /* border: 1px solid black; */
+    font-weight: bold;
+    font-size: 14px;
+    width: 196px;
+    height: 61px;
+    color: rgba(120, 120, 133, 1);
+    padding-bottom: 17px;
+}
+.see-more{
+    align-items: center;
+    color: #E02C6D;
+    
 }
 
 /* responsive related style */
