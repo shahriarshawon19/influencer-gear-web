@@ -78,8 +78,22 @@ main section i{
     background-image: url('../images/Circle\ design.svg');
     margin-left: 133px;
 }
+.sponsors{
+    /* margin-top: 100px;
+    margin-right: 165px;
+    margin-left: 165px;
+    justify-content: space-between;
+    align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 165px 0px;
+}
 
-/* main section i{
-    position: absolute;
-    right: 5px;
+/* responsive related style */
+/* @media screen and (max-width: 576px) {
+    .header-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 } */
