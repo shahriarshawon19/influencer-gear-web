@@ -216,6 +216,36 @@
     margin-bottom: 16px;
     
 }
+footer{
+    background-color: rgb(1, 0, 46);
+}
+.footer{
+    color: white;
+    text-align: center;
+    
+}
+.footer-icon{
+    list-style: none;
+    /* margin-left: 632px;
+    margin-right: 632px; */
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+.icon{
+    color: white;
+    margin-left: 16px;
+    margin-bottom: 50px;
+}
+.footer-title{
+margin-top: 50px;
+}
+.footer-des{
+margin-bottom: 3px;
+}
+.copy-right{
+margin-bottom: 16px;
+}
 /* responsive related style */
 /* @media screen and (max-width: 576px) {
     .header-container{
